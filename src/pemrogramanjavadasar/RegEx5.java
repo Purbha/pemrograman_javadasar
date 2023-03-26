@@ -38,9 +38,19 @@ public class RegEx5 {
         System.out.println("Email adalah: " + Email1);
         Pattern POLA = Pattern.compile("^[A-Za-z0-9_.]+@[a-zA-Z0-9]+.[a-zA-Z0-9]+$");
         Matcher Cocok = POLA.matcher(Email1);
+        if(Cocok.find()) {
+            System.out.println("Komposisi email benar.");
+        } else {
+            System.out.println("Komposisi email salah");
+        }
+        /*
         int i = 0;
-        while (Cocok.find()){ i = Cocok.start() + 1; }
+        while (Cocok.find()){
+            //System.out.println(Cocok.start());
+            i = Cocok.start() + 1;
+        }
         if (i==0) { System.out.println("Komposisi email salah"); }
         else { System.out.println("Komposisi email benar."); }     
+        */
     }
 }

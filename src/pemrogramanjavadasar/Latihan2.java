@@ -39,7 +39,8 @@ public class Latihan2 {
         System.out.println();
         garis();System.out.println("Data Ke - " + no);garis();
         Scanner masukan = new Scanner(System.in);
-        Latihan2 Objek = new Latihan2();
+        //Latihan2 Objek = new Latihan2();
+        //Objek.NmKar[indeks] = masukan.next();
         System.out.print("Nama Karyawan: ");NmKar[indeks] = masukan.next();
         System.out.print("Gaji Pokok   : ");Gaji[indeks] = masukan.nextLong();
         System.out.print("Tunjangan    : ");Tunj[indeks] = masukan.nextLong();

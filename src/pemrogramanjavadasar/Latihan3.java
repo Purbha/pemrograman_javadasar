@@ -121,6 +121,7 @@ public class Latihan3 {
             System.out.print(String.format("%-3s",i));
             System.out.print(String.format("%-5s",Jam[i]));
             System.out.print(String.format("%-11s",Objek.Cek_Hari(Hari[i])));
+            
             Objek.enter(1);                   
         } Objek.garis(33);
     }

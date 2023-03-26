@@ -126,6 +126,6 @@ public class Fungsi5 {
         data_masukan();
         perhitungan();
         cetak();
-        pilihan = 5;
+        //pilihan = 5;
     }    
 }

@@ -29,7 +29,7 @@ public class Latihan1 {
     public void Set_Nama(int no){
         switch (no){
             case 1: nama = "Betesda Sinaga"; break;
-            case 2: nama = "Rudi Budiawa"; break;
+            case 2: nama = "Rudi Budiawan"; break;
             case 3: nama = "Arifah Hidayah"; break;
             default: nama = "Kode Salah"; break;
         }     
