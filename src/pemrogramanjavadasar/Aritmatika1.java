@@ -1,3 +1,4 @@
+//Author: Irsyad Purbha
 package pemrogramanjavadasar;
 
 public class Aritmatika1 {
